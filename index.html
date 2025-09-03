@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">HMS</div>
+        <nav id="nav-menu" class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html" class="btn">Login</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Comprehensive Hospital Management System</h1>
+            <p>Streamline patient care, appointments, and staff administration in one platform.</p>
+            <a href="login.html" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="service-grid">
+                <div class="card reveal">
+                    <i class="fa-solid fa-user-injured card-icon"></i>
+                    <h3>Patient Management</h3>
+                    <p>Maintain detailed records and track patient history effortlessly.</p>
+                </div>
+                <div class="card reveal">
+                    <i class="fa-solid fa-user-doctor card-icon"></i>
+                    <h3>Doctor Scheduling</h3>
+                    <p>Organize doctor availability and appointments with ease.</p>
+                </div>
+                <div class="card reveal">
+                    <i class="fa-solid fa-chart-line card-icon"></i>
+                    <h3>Analytics</h3>
+                    <p>Gain insights with dashboards and reports for better decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our Hospital Management System aims to provide healthcare facilities with a robust and intuitive platform to manage patients, doctors, and appointments effectively.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Hospital Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
